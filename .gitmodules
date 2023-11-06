@@ -1,0 +1,7 @@
+[submodule "meson"]
+	path = meson
+	url = https://github.com/akobyl/embedded_toolbelt
+  branch = main
+[submodule "embedded_toolbelt"]
+	path = embedded_toolbelt
+	url = https://github.com/akobyl/embedded_toolbelt
