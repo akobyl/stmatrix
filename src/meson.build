@@ -7,6 +7,8 @@ stmatrix = executable('stmatrix_app',
                        dependencies : [
                          stm_sdk,
                          freertos,
-                         ],
+                       ],
+                         name_suffix: 'elf',
                        install : false,
+                       link_args: linker_script_flags,
                        )

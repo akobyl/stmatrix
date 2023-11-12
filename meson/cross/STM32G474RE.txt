@@ -1,0 +1,8 @@
+[built-in options]
+c_args = ['-mcpu=cortex-m4', '-mfloat-abi=hard', '-mthumb',]
+c_link_args = [ '-mcpu=cortex-m4', '-mfloat-abi=hard', '-mthumb', '--specs=nosys.specs']
+cpp_args = [ '-mcpu=cortex-m4', '-mfloat-abi=hard', '-mthumb']
+cpp_link_args = [ '-mcpu=cortex-m4', '-mfloat-abi=hard', '-mthumb', '-nostdlib']
+
+[host_machine]
+cpu = 'STM32F474REx'
